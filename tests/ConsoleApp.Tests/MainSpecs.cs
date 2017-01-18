@@ -30,7 +30,7 @@ namespace Tests.ConsoleApp
       }
 
       [Test]
-      [Category("Bug")]
+      [Category("NoBug")]
       public void this_is_the_path_of_the_install()
       {
          var path = MikTEXPortablePath;
