@@ -38,7 +38,7 @@ namespace Tests.ConsoleApp
          Assert.IsFalse(string.IsNullOrEmpty(path));
       }
 
-      private const string _mikTEXRegistryPath = @"HKEY_LOCAL_MACHINE\SOFTWARE\BTS Products\MikTEX";
+      private const string _mikTEXRegistryPath = @"HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\BTS Products\MikTEX";
 
       public static string MikTEXPortablePath
       {
